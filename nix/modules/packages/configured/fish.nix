@@ -61,7 +61,7 @@ in
         gs = "git status";
 
         ## Nix
-        nshell = "nix shell nixpkgs#";
+        ns = "nix shell nixpkgs#";
         # rebuild = let
         #   inherit (pkgs.stdenv.hostPlatform) isDarwin;
         #   command = if isDarwin then "darwin-rebuild" else "sudo nixos-rebuild";
